@@ -16,7 +16,7 @@ public class LeapYearTest {
 
         @Test
         public void isYearDivisibleBy4andNot100() {
-            assertTrue(leapyear.isLeapYear(200));
+            assertTrue(leapyear.isLeapYear(2001));
             assertTrue(leapyear.isLeapYear(1996));
             assertTrue(leapyear.isLeapYear(2024));
             assertTrue(leapyear.isLeapYear(1984));
