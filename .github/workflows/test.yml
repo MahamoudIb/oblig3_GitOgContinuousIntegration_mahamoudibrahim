@@ -28,4 +28,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven AND testing LeapYear
-      run: mvn -B package --file pom.xml
+      run: mvn pom.xml
+    - name: LeapYearTest
+      run: mvn test
